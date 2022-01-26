@@ -1,0 +1,27 @@
+{
+  "name": "buy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backEnd/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backEnd/server.js",
+    "dev": "nodemon backEnd/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ho-ssain/WantToBuy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ho-ssain/WantToBuy/issues"
+  },
+  "homepage": "https://github.com/ho-ssain/WantToBuy#readme",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.15"
+  }
+}
